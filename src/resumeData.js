@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Administrative Assistant and Intake Coordinator",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like enjoy \.\..",
+    "roleDescription": "I like...",
     "socialLinks":[
         {
           "name":"linkedin",
