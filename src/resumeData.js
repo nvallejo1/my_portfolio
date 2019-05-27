@@ -13,7 +13,8 @@ let resumeData = {
         }
       ],
     "aboutme":"I am an Administrative Assistant and Intake Coordinator at REACH, Resource for Education, Communication and Housing. Currently I am working towards growing a team of clients and staff at our recently opened satellite office in Monrovia. I was asked to transfer to Monrovia as part of the administrative and intake team. I wear different hats according to our needs. I play a supportive role as an administrative assistant, organizing and creating client files and acquiring authorizations to provide services. I’ve also taken the lead as part of our intake team by focusing on developing relationships with local nonprofit organizations, chamber members and other organizations to build our client base. So far, it has been a challenge that has allowed me to grow and apply my skills to different tasks.",
-    "aboutBG":"./images/bg-pattern.jpg",
+    "BG":"./images/bg-pattern.jpg",
+    "BG2":"./images/bg-pattern2.jpg",
     "address":"Whittier, California",
     "website":"nvallejo246@gmail.com",
     "education":[
@@ -95,10 +96,15 @@ let resumeData = {
     ],
     "skillsDescription":"",
     "skills":[
-      {"skillname":"HTML5"},
-      {"skillname":"CSS"},
-      {"skillname":"Reactjs"},
-      {"skillname":"Research"}
+      {"skillname":"Computer: MS Word, PowerPoint, Excel, Publisher, Outlook, and Raiser’s Edge."},
+      {"skillname":"Language: Fluent in Spanish and English."},
+      {"skillname":"Dedication to reaching goals independently."},
+      {"skillname":"Strong analytical and organizational skills."},
+      {"skillname":"Strong Project Management Skills."},
+      {"skillname":"4 years of experience in Hospital setting."},
+      {"skillname":"4 years of experience in an Office setting."},
+      {"skillname":"Knowledge of standard microbiology procedures and techniques."},
+      {"skillname":"4 years of classroom experience in biochemistry, protein and organic chemistry laboratories."}
     ],
     "portfolio":[],
     "testimonials":[

@@ -4,11 +4,12 @@ export default class About extends Component {
     let resumeData = this.props.resumeData;
 
     let aboutStyle = {
-        backgroundImage: `url(" ${resumeData.aboutBG} ")`,
+        backgroundImage: `url(" ${resumeData.BG} ")`,
         backgroundRepeat: 'repeat',
         bacgroundColor: 'white',
         paddingBottom: '66px',
         paddingTop: '96px',
+        color: 'black',
     }
 
     return (

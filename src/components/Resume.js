@@ -14,7 +14,15 @@ export default  class Resume extends React.Component {
     }
 
     let workStyle = {
-        backgroundImage: `url(" ${resumeData.aboutBG} ")`,
+        backgroundImage: `url(" ${resumeData.BG} ")`,
+        backgroundRepeat: 'repeat',
+        bacgroundColor: 'white',
+        paddingBottom: '66px',
+        paddingTop: '96px',
+    }
+
+    let workStyle2 = {
+        backgroundImage: `url(" ${resumeData.BG2} ")`,
         backgroundRepeat: 'repeat',
         bacgroundColor: 'white',
         paddingBottom: '66px',
@@ -22,7 +30,7 @@ export default  class Resume extends React.Component {
     }
 
     return (
-      <section id="resume">
+      <section id="resume" style={workStyle2}>
 
          <div className="row education" style={workStyle}>
 
