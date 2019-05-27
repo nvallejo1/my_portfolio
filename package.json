@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ajv": "^6.0.0",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-scripts": "^3.0.1"
+    "ajv": "^6.10.0",
+    "bootstrap": "^4.3.1",
+    "core-js": "^3.1.2",
+    "jquery": "^3.4.1",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "react-scripts": "^3.0.1",
+    "typescript": "^3.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,6 +31,7 @@
   ],
   "homepage": "https://nvallejo1.github.io/portfolio/",
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "react-bootstrap": "^1.0.0-beta.8"
   }
 }

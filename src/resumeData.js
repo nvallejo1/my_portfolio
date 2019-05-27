@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Naomi Vallejo",
-    "role": "Administrative Assistant and Intake Coordinator",
+    "role": "",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like...",
+    "roleDescription": "",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -54,7 +54,11 @@ let resumeData = {
         "YearOfStart":"2016",
         "MonthOfLeaving":"",
         "YearOfLeaving":"2017",
-        "Responsibilities": [],
+        "Responsibilities": [
+          "Provided social-emotional based developmental services to children with autism using DIR Floortime methods.",
+          "Worked under the supervision of a Developmental Specialist to form relationships with clients and families.",
+          "Kept analytical data on clients to assess progress."
+        ],
         "Achievements":""
       },
       {
@@ -64,7 +68,12 @@ let resumeData = {
         "YearOfStart":"2008",
         "MonthOfLeaving":"",
         "YearOfLeaving":"2016",
-        "Responsibilities": [],
+        "Responsibilities": [
+          "Worked directly under the Supervision of the Pharmacy Administrative Coordinator.",
+          "Supported Pharmacy Technicians with Filing.",
+          "Organized and Scanned Order Requisition Forms and Inventory Forms.",
+          "Maintained Patient Privacy and HIPAA Compliance."
+        ],
         "Achievements":""
       },
       {
@@ -74,7 +83,12 @@ let resumeData = {
         "YearOfStart":"2011",
         "MonthOfLeaving":"",
         "YearOfLeaving":"2013",
-        "Responsibilities": [],
+        "Responsibilities": [
+          "Utilized Excel to organize misconduct files.",
+          "Worked collaboratively with supervisors and project managers to assess departmental needs.",
+          "Scanned, copied, and filed documents.",
+          "Answered incoming customer service calls."
+        ],
         "Achievements":""
       }
     ],

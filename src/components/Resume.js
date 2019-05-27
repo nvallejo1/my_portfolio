@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
-export default  class Resume extends Component {
+import React from 'react';
+//import ListGroup from 'react-bootstrap/ListGroup'
+
+export default  class Resume extends React.Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -36,6 +38,7 @@ export default  class Resume extends Component {
                <h1><span>Work</span></h1>
             </div>
 
+
             <div className="nine columns main-col">
               {
                 resumeData.work && resumeData.work.map((item) => {
@@ -46,6 +49,7 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfStart} {item.YearOfStart} - {item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+
                           <ul>
                              {
                                item.Responsibilities.map((thing) => {
