@@ -18,63 +18,83 @@ let resumeData = {
     "education":[
       {
         "UniversityName":"University of California, San Diego",
-        "specialization":"Pharmaclogical Chemistry",
-        "MonthOfPassing":"Jun",
-        "YearOfPassing":"2014",
-        "Achievements":"Some Achievements"
+        "specialization":"Pharmacological Chemistry",
+        "MonthOfStart":"August",
+        "YearOfStart":"2010",
+        "MonthOfGrad":"Jun",
+        "YearOfGrad":"2014",
+        "Achievements":""
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"REACH, formerly WAPADH",
+        "specialization":"Training Counselor, Supervisor, currently Administrative Assistant/Intake Coordinator",
+        "MonthOfStart":"",
+        "YearOfStart":"2015",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"Present",
+        "Responsibilities": [
+          "Handled administrative requests queries from the Director of Education and Supervisors",
+          "Scheduled appointments and Managed Building Schedules",
+          "Monitored level of supplies, placed orders to replenish on a weekly basis, and restocked accordingly",
+          "Provided general support to visitors and provided tours for new clients and their families",
+          "Trained new employees with clients",
+          "Proficient in MS Excel, MS PowerPoint, and MS Publisher, and Raiser’s Edge",
+          "Excellent time management skills and the ability to prioritize work",
+          "Led community outreach efforts and proposed marketing strategies for new location",
+          "Coordinated Intake of new Clients from first meeting to completing their enrollment and receiving authorizations for services rendered"
+        ],
+        "Achievements":""
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Real Connections Institute  ",
+        "specialization":"Floortime Player",
+        "MonthOfStart":"",
+        "YearOfStart":"2016",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"2017",
+        "Responsibilities": [],
+        "Achievements":""
+      },
+      {
+        "CompanyName":"Presbyterian Intercommunity Hospital",
+        "specialization":"Pharmacy Volunteer",
+        "MonthOfStart":"",
+        "YearOfStart":"2008",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"2016",
+        "Responsibilities": [],
+        "Achievements":""
+      },
+      {
+        "CompanyName":"UC San Diego - Student Affairs Department",
+        "specialization":"Administrative Intern",
+        "MonthOfStart":"",
+        "YearOfStart":"2011",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"2013",
+        "Responsibilities": [],
+        "Achievements":""
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"",
     "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      },
-      {
-        "skillname":"Research"
-      }
+      {"skillname":"HTML5"},
+      {"skillname":"CSS"},
+      {"skillname":"Reactjs"},
+      {"skillname":"Research"}
     ],
     "portfolio":[
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/project2.png"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",
         "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
       }
     ],
     "testimonials":[

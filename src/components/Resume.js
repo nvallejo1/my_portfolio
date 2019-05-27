@@ -20,7 +20,7 @@ export default  class Resume extends Component {
                           <h3>{item.UniversityName}</h3>
                           <p className="info">
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                          <span>&bull;</span> <em className="date">{item.MonthOfStart} {item.YearOfStart} - {item.MonthOfGrad} {item.YearOfGrad}</em></p>
                           <p>
                           {item.Achievements}
                           </p>
@@ -45,7 +45,16 @@ export default  class Resume extends Component {
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          <span>&bull;</span> <em className="date">{item.MonthOfStart} {item.YearOfStart} - {item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          <ul>
+                             {
+                               item.Responsibilities.map((thing) => {
+                                 return(
+                                   <li>{thing}</li>
+                                 )
+                               })
+                             }
+                					</ul>
                           <p>
                           {item.Achievements}
                           </p>
@@ -56,7 +65,7 @@ export default  class Resume extends Component {
                   )
                 })
               }
-            </div> 
+            </div>
          </div>
 
 
@@ -72,20 +81,16 @@ export default  class Resume extends Component {
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+   				<div>
 
-   				   <ul className="skills">
+   				   <ul>
                 {
-                  resumeData.skills && resumeData.skills.map((item) => {
+                  resumeData.skills.map((item) => {
                     return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
-                      </li>
+                      <li>{item.skillname}</li>
                     )
                   })
                 }
-
    					</ul>
 
    				</div>
