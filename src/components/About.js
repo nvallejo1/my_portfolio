@@ -2,18 +2,24 @@ import React, { Component } from 'react';
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
+
+    let aboutStyle = {
+        backgroundImage: `url(" ${resumeData.aboutBG} ")`,
+        backgroundRepeat: 'repeat',
+        bacgroundColor: 'white',
+        paddingBottom: '66px',
+        paddingTop: '96px',
+    }
+
     return (
-      <section id="about">
+      <section style={aboutStyle}>
          <div className="row">
 
             <div className="three columns">
-
                <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
-
             </div>
 
             <div className="nine columns main-col">
-
                <h2>About Me</h2>
                <p>
                {
@@ -22,7 +28,6 @@ export default class About extends Component {
                </p>
 
                <div className="row">
-
                   <div className="columns contact-details">
 
                   <h2>Contact Details</h2>

@@ -4,10 +4,27 @@ import React from 'react';
 export default  class Resume extends React.Component {
   render() {
     let resumeData = this.props.resumeData;
+
+    let listStyle = {
+      display: 'list-item',
+      listStyle:'square',
+      marginLeft: '10px',
+      marginRight: '10px',
+      color: 'black',
+    }
+
+    let workStyle = {
+        backgroundImage: `url(" ${resumeData.aboutBG} ")`,
+        backgroundRepeat: 'repeat',
+        bacgroundColor: 'white',
+        paddingBottom: '66px',
+        paddingTop: '96px',
+    }
+
     return (
       <section id="resume">
 
-         <div className="row education">
+         <div className="row education" style={workStyle}>
 
             <div className="three columns header-col">
                <h1><span>Education</span></h1>
@@ -33,7 +50,8 @@ export default  class Resume extends React.Component {
               }
             </div>
          </div>
-        <div className="row work">
+
+        <div className="row work" style={workStyle}>
             <div className="three columns header-col">
                <h1><span>Work</span></h1>
             </div>
@@ -54,7 +72,7 @@ export default  class Resume extends React.Component {
                              {
                                item.Responsibilities.map((thing) => {
                                  return(
-                                   <li>{thing}</li>
+                                   <li style = {listStyle}>{thing}</li>
                                  )
                                })
                              }
@@ -73,7 +91,7 @@ export default  class Resume extends React.Component {
          </div>
 
 
-         <div className="row skill">
+         <div className="row skill" style={workStyle}>
 
             <div className="three columns header-col">
                <h1><span>Skills</span></h1>
@@ -91,7 +109,7 @@ export default  class Resume extends React.Component {
                 {
                   resumeData.skills.map((item) => {
                     return(
-                      <li>{item.skillname}</li>
+                      <li style = {listStyle}>{item.skillname}</li>
                     )
                   })
                 }

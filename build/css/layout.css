@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images//bg.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -131,6 +131,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 /* nav-wrap */
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
+   color: black;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -139,6 +140,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    position: fixed;
    left: 0;
    top: 0;
+   background-color: black;
 }
 .opaque { background-color: #333; }
 
@@ -179,7 +181,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #ff99b5; }
 
 
 /* ------------------------------------------------------------------ */
@@ -971,7 +973,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #ff99b5;
 }
 
 footer .social-links li:first-child { margin-left: 0; }

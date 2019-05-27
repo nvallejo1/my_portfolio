@@ -13,6 +13,7 @@ let resumeData = {
         }
       ],
     "aboutme":"I am an Administrative Assistant and Intake Coordinator at REACH, Resource for Education, Communication and Housing. Currently I am working towards growing a team of clients and staff at our recently opened satellite office in Monrovia. I was asked to transfer to Monrovia as part of the administrative and intake team. I wear different hats according to our needs. I play a supportive role as an administrative assistant, organizing and creating client files and acquiring authorizations to provide services. I’ve also taken the lead as part of our intake team by focusing on developing relationships with local nonprofit organizations, chamber members and other organizations to build our client base. So far, it has been a challenge that has allowed me to grow and apply my skills to different tasks.",
+    "aboutBG":"./images/bg-pattern.jpg",
     "address":"Whittier, California",
     "website":"nvallejo246@gmail.com",
     "education":[
@@ -99,18 +100,7 @@ let resumeData = {
       {"skillname":"Reactjs"},
       {"skillname":"Research"}
     ],
-    "portfolio":[
-      {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project2.png"
-      }
-    ],
+    "portfolio":[],
     "testimonials":[
       {
         "description":"This is a sample testimonial",
