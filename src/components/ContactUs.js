@@ -2,25 +2,42 @@ import React, { Component } from 'react';
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
+
+    let workStyle = {
+        backgroundImage: `url(" ${resumeData.BG} ")`,
+        backgroundRepeat: 'repeat',
+        bacgroundColor: 'white',
+        paddingBottom: '50px',
+        paddingTop: '50px',
+    }
+
+    let buttonStyle = {
+      color: 'white',
+      backgroundColor: '#FFAACC',
+    }
+
+    let titleStyle = {
+      paddingBottom: '10px',
+      fontSize: '40px',
+      fontStyle: 'italic',
+      fontFamily: 'librebaskerville-bold',
+      color: 'black'
+    }
+
     return (
-      <section id="contact">
-          <div className="row section-head">
-            <div className="ten columns">
-              <p className="lead">
-              Feel free to contact me for any work or suggestions below
-              </p>
+
+
+      <div style={workStyle}>
+        <div class="container">
+          <div>
+            <div class="col-md-10 col-md-offset-1 text-center fh5co-heading">
+              <p style={titleStyle}>{resumeData.outtro}</p>
+              <button style={buttonStyle}>Download my Resume</button>
             </div>
           </div>
-          <div className="row">
-            <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <h4>Linked in :
-                  {resumeData.linkedinId}
-                </h4>
-              </div>
-            </aside>
-          </div>
-        </section>
+        </div>
+      </div>
+
         );
   }
 }

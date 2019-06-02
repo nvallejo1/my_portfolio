@@ -17,16 +17,24 @@ export default  class Resume extends React.Component {
         backgroundImage: `url(" ${resumeData.BG} ")`,
         backgroundRepeat: 'repeat',
         bacgroundColor: 'white',
-        paddingBottom: '66px',
-        paddingTop: '96px',
+        paddingBottom: '50px',
+        paddingTop: '50px',
+        borderRadius: '50px',
+        
     }
 
     let workStyle2 = {
         backgroundImage: `url(" ${resumeData.BG2} ")`,
         backgroundRepeat: 'repeat',
         bacgroundColor: 'white',
-        paddingBottom: '66px',
-        paddingTop: '96px',
+        paddingBottom: '50px',
+        paddingTop: '50px',
+    }
+
+    let sealStyle = {
+      width: '100px',
+      height: this.width,
+      paddingLeft: '10px',
     }
 
     return (
@@ -34,11 +42,15 @@ export default  class Resume extends React.Component {
 
          <div className="row education" style={workStyle}>
 
-            <div className="three columns header-col">
-               <h1><span>Education</span></h1>
+            <div className="columns header-col">
+               <h1>Education</h1>
             </div>
 
-            <div className="nine columns main-col">
+            <div className="columns">
+              <img style={sealStyle} src="images/ucsd.png" alt="not available"/>
+            </div>
+
+            <div className="eight columns">
               {
                 resumeData.education && resumeData.education.map((item)=>{
                   return(
@@ -61,7 +73,7 @@ export default  class Resume extends React.Component {
 
         <div className="row work" style={workStyle}>
             <div className="three columns header-col">
-               <h1><span>Work</span></h1>
+               <h1>Work</h1>
             </div>
 
 
@@ -102,7 +114,7 @@ export default  class Resume extends React.Component {
          <div className="row skill" style={workStyle}>
 
             <div className="three columns header-col">
-               <h1><span>Skills</span></h1>
+               <h1>Skills</h1>
             </div>
 
             <div className="nine columns main-col">

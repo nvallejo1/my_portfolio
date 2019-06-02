@@ -13,7 +13,7 @@ export default class About extends Component {
     }
 
     return (
-      <section style={aboutStyle}>
+      <section id="about" style={aboutStyle}>
          <div className="row">
 
             <div className="three columns">
@@ -21,7 +21,7 @@ export default class About extends Component {
             </div>
 
             <div className="nine columns main-col">
-               <h2>About Me</h2>
+               <h2 className="title">About Me</h2>
                <p>
                {
                  resumeData.aboutme
@@ -31,7 +31,7 @@ export default class About extends Component {
                <div className="row">
                   <div className="columns contact-details">
 
-                  <h2>Contact Details</h2>
+                  <h2 className="title">Contact Details</h2>
                   <p className="address">
        						<span>{resumeData.name}</span>
                      <br></br>

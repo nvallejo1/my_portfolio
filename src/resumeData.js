@@ -25,7 +25,8 @@ let resumeData = {
         "YearOfStart":"2010",
         "MonthOfGrad":"Jun",
         "YearOfGrad":"2014",
-        "Achievements":""
+        "Achievements":"",
+        "logo": "./images/ucsd.png"
       }
     ],
     "work":[
@@ -116,7 +117,8 @@ let resumeData = {
         "description":"This is a sample testimonial",
         "name":"Some technical guy"
       }
-    ]
+    ],
+    "outtro": "Thank you for visiting my page!"
   }
 
   export default resumeData

@@ -8,6 +8,18 @@ export default class Header extends Component {
       color: 'black',
     }
 
+    let profilePicStyle = {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      margin: 5,
+      width: '25vh',
+      height: this.width,
+      borderRadius: '60vh',
+      marginTop: '0px',
+      marginBottom: '50px',
+    }
+
     return (
       <React.Fragment>
 
@@ -19,13 +31,13 @@ export default class Header extends Component {
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
              <li><a className="smoothscroll" href="#resume">Resume</a></li>
-               <li><a className="smoothscroll" href="#portfolio">Works</a></li>
                <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
 
          <div className="row banner">
+            <img style={profilePicStyle} src="images/profilepic.jpg" alt="not available"/>
             <div className="banner-text">
                <h1 className="responsive-headline">Hi, I am {resumeData.name}.</h1>
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.role}{resumeData.roleDescription}

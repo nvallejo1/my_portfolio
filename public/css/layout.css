@@ -203,6 +203,11 @@ ul#nav li.current a { color: #ff99b5; }
    border-radius: 100%;
 }
 
+.title {
+  font: 25px/30px 'librebaskerville-bold', serif;
+  font-size: 30px;
+}
+
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
@@ -218,29 +223,28 @@ ul#nav li.current a { color: #ff99b5; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
+  font: 25px/30px 'librebaskerville-bold', serif;
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #000000;
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'librebaskerville-bold', serif;
 }
 
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
+   margin-bottom: 25px;
+   padding-bottom: 25px;
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #000000;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -249,7 +253,7 @@ ul#nav li.current a { color: #ff99b5; }
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 16px/24px 'librebaskerville-italic', serif;
    margin-top: 6px;
 }
 
@@ -759,97 +763,18 @@ call-to-action .button {
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
-#contact {
-   background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
-   color: #636363;
-}
-#contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
-
-#contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#contact h1 span { display: none; }
-#contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #ebeeee;
+.outtro {
+      position:relative;
+      top:50%;
+      left:50%;
+  font-family: 'FontAwesome';
+  font-size: 72px;
+  color: black;
 }
 
-#contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
-}
-#contact .header-col { padding-top: 6px; }
 
 
-/* contact form */
-#contact form { margin-bottom: 30px; }
-#contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
-   margin: 12px 0;
-   color: #EBEEEE;
-	display: inline-block;
-	float: left;
-   width: 26%;
-}
-#contact input,
-#contact textarea,
-#contact select {
-   padding: 18px 20px;
-	color: #eee;
-	background: #373233;
-	margin-bottom: 42px;
-	border: 0;
-	outline: none;
-   font-size: 15px;
-   line-height: 24px;
-   width: 65%;
-}
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-	color: #fff;
-	background-color: #11ABB0;
-}
-#contact button.submit {
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
-	border: none;
-   cursor: pointer;
-   height: auto;
-   display: inline-block;
-	border-radius: 3px;
-   margin-left: 26%;
-}
-#contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
-}
-#contact span.required {
-	color: #11ABB0;
-	font-size: 13px;
-}
 #message-warning, #message-success {
    display: none;
 	background: #0F0F0F;
